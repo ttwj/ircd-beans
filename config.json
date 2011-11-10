@@ -1,0 +1,30 @@
+/*
+ * ircd-beans configuration file
+ * 
+ * ircd-beans inherits a ratbox-like configuration
+ */
+
+{
+    //Extensions
+    "extensions": {
+        1: "lol_extension"
+    },
+    //Generice server information
+    
+    "serverinfo": {
+        "name": "irc.beans",
+        "sid": "42X",
+        "description": "ircdbeans test server",
+        "network": {
+            "name": "BeansIRC",
+            "description": "Where jellybeans come alive!"
+        },
+        //making a server a hub allows other servers to link to it
+        "hub": true
+    },
+    //various classes for various users connecting
+    "listen": {
+        "port": [6667]
+    }
+}
+        
